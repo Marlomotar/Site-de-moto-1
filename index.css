@@ -1,0 +1,135 @@
+body{
+    background-image:url("./images.motos/fond\ d\'ecran5.jpg");
+}
+
+.moto1{
+    color:rgb(255, 0, 0);
+    font-size: 50px; 
+}
+
+.paragraphe1{
+    color:rgb(255, 0, 0);
+    font-size: 30px;
+    
+}
+
+.moto2{
+    color:rgb(255, 0, 0);
+    font-size: 32px;
+}
+
+.motoA1{
+
+    width: 300px;
+    border: 1px solid rgb(0, 255, 255);
+
+    transform: rotate(180deg);
+
+    transition:
+    width 2s,
+    height 2s,
+    background-color 2s,
+    transform 5s;
+   
+}
+
+.motoA1:hover{
+    transform: rotate(0deg)
+}
+
+.bouton1{
+    width: 150px;
+    height: 25px;
+    background-color:rgb(0, 255, 255);
+}
+
+.paragraphe2{
+    color:rgb(0, 255, 255);
+    font-size: 30px;
+}
+
+.container{
+    display: flex; 
+    justify-content:space-between;
+}
+
+header{
+    background-image: url("images.motos/moto1.01.jpg");
+}
+
+.card{
+    color: white;
+}
+
+.container2{
+    display:flex; 
+    justify-content: space-between;
+}
+
+.taille1{
+    width: 320px;
+    height: 300px;
+}
+
+.card-title1{
+    text-align: center;
+    font-size: 30px;
+    color:rgb(0, 255, 255)
+}
+
+.card-text1{
+    text-align: center;
+    font-size: 20px;
+    color:rgb(0, 255, 255)
+}
+
+.card-link1{
+    text-align: center;
+    font-size: 20px;
+    color:rgb(0, 255, 255)
+}
+
+.bouton2{
+    width: 150px;
+    height: 25px;
+    background-color:rgb(0, 255, 255);
+    text-align: center;
+    text-decoration: underline black;
+}
+
+li{
+    color:rgb(255, 0, 0);
+    text-align: center;
+}
+
+.card-body1{
+    text-align: center;
+}
+
+.bouton3{
+    color:red;
+    background-color:black;
+    text-decoration: underline red;
+    transition: all 2s ease-out;
+
+
+}
+
+.bouton3:hover{
+    background-color:rgb(255, 255, 255);
+}
+
+a{
+    color: #fff;
+    background-color: #000000;
+    transition: all 2s ease-out;
+}
+  
+a:hover,
+a:focus {
+    color: #000000;
+    background-color: #fff;
+}
+
+
+
